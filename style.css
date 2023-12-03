@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: left 40px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 3vw;
+    border-bottom: 1px solid slategray; 
+
+}
+header section{
+    display: flex;
+    align-items: center;
+}
+
+header h2{
+    text-transform: uppercase;
+    color: slategray;
+    margin-left: 20px;
+
+}
+
+.service img{
+    max-height: 200px;
+    margin-left: 25px;
+
+
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    padding: 0 20px;
+}
+
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header ul li a{
+    text-decoration: underline dotted;
+    color: rgb(108, 67, 108);
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: black; 
+}
+
+section{
+    width: 100%;
+
+}
+
+section.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    background-color: antiquewhite;
+    color: rgb(108, 67, 108); 
+    
+}
+
+
+section.myprojects{
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: rgb(216, 221, 221);
+    color: rgb(108, 67, 108);
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: minmax(300px, auto); 
+    grid-gap: 20px; 
+
+}
+
+.grid-item-1 {
+    grid-column: 1 / -1;
+}
+
+.grid-item-2 { 
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid-item-3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+section.contactme{
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 150px;
+    background-color: rgb(236, 213, 217);
+    color: rgb(108, 67, 108);
+
+}
+
+h2{
+    border-right: 3px solid black;
+    width: fit-content;
+    padding-right: 10px;
+    
+}
+
+#figure{
+    display: grid;
+    height: fit-content;
+    width: 100%;
+    grid-template-columns: 1fr 3fr; 
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 3vw;
+}
+
+ul li {
+    padding: 0 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: black; 
+}
+
