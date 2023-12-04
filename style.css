@@ -5,39 +5,40 @@
 
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
     margin: left 40px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2vh 3vw;
-    border-bottom: 1px solid slategray; 
+    border-bottom: 1px solid slategray;
 
 }
-header section{
+
+header section {
     display: flex;
     align-items: center;
 }
 
-header h2{
+header h2 {
     text-transform: uppercase;
     color: slategray;
     margin-left: 20px;
 
 }
 
-.service img{
+.service img {
     max-height: 200px;
     margin-left: 25px;
 
 
 }
 
-header ul{
+header ul {
     list-style-type: none;
     display: flex;
 }
@@ -46,7 +47,7 @@ header ul li {
     padding: 0 20px;
 }
 
-header nav{
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -54,56 +55,56 @@ header nav{
     font-size: 20px;
 }
 
-header ul li a{
+header ul li a {
     text-decoration: underline dotted;
     color: rgb(108, 67, 108);
 }
 
-header ul li a:hover{
+header ul li a:hover {
     text-decoration: underline;
-    color: black; 
+    color: black;
 }
 
-section{
+section {
     width: 100%;
 
 }
 
-section.aboutme{
+section.aboutme {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 50px;
     height: 200px;
     background-color: antiquewhite;
-    color: rgb(108, 67, 108); 
-    
+    color: rgb(108, 67, 108);
+
 }
 
 
-section.myprojects{
+section.myprojects {
     margin-bottom: 20px;
     padding: 50px;
     background-color: rgb(216, 221, 221);
     color: rgb(108, 67, 108);
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
 
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: minmax(300px, auto); 
-    grid-gap: 20px; 
-
+    grid-template-rows: minmax(300px, auto);
+    grid-gap: 20px;
+    margin-left: 20px;
 }
 
 .grid-item-1 {
     grid-column: 1 / -1;
 }
 
-.grid-item-2 { 
+.grid-item-2 {
     grid-row-start: 2;
     grid-row-end: 4;
 }
@@ -113,7 +114,7 @@ section.myprojects{
     grid-row-end: 4;
 }
 
-section.contactme{
+section.contactme {
     margin-bottom: 10px;
     padding: 50px;
     height: 150px;
@@ -122,23 +123,23 @@ section.contactme{
 
 }
 
-h2{
+h2 {
     border-right: 3px solid black;
     width: fit-content;
     padding-right: 10px;
-    
+
 }
 
-#figure{
+#figure {
     display: grid;
     height: fit-content;
     width: 100%;
-    grid-template-columns: 1fr 3fr; 
+    grid-template-columns: 1fr 3fr;
 }
 
 
 
-ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -150,13 +151,12 @@ ul li {
     padding: 0 20px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: blueviolet;
 }
 
-ul li a:hover{
+ul li a:hover {
     text-decoration: underline;
-    color: black; 
+    color: black;
 }
-
